@@ -1,0 +1,46 @@
+/*third highligh styling*/
+.third_highlight{
+    background-image: url(../images/iphone11-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	padding: 65px 20px;
+	color:black;
+    height: 570px;
+}
+.title-two{
+    font-weight: 600;
+    font-size: 56px;
+}
+.highlight-description{
+    font-size: 26px;
+	padding: 10px 0;
+}
+.price{
+    color: #86868b; 
+	font-size: 0.85em;
+}
+
+.link ul {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+.link ul li{
+    padding-right: 20px;
+    list-style: none;
+}
+.link ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.link ul li a:hover {
+	color: #000;
+}
+.link ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
