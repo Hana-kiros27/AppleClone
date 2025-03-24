@@ -44,3 +44,84 @@
     content: "\f105";
     padding-left: 10px;
 }
+
+.second-row .first-element{
+    background-image: url('../images/home/apple-tv-background.jpg');
+}
+.second-row .second-element{
+    background-image: url('../images/home/air-pods.jpg');
+    color: #fff; 
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+}
+.second-row{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.logo2{
+    padding: 180px 0 200px;
+}
+.trailer a{
+    text-decoration: none;
+}
+.second-element{
+    height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+}
+.first-element{
+    height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+	width: 48.5%;
+	margin: 1% 1% 0% 0.5%; 
+	padding-top: 54px;
+}
+
+.third-row{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.third-row .first-element{
+    background-image: url('../images/home/macbook-pro.jpg');
+    background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+}
+.trailer a::after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 10px;
+}
+
+.description .p2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.description a{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#06c ;
+   
+}
+.description a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+.description a:hover{
+    color: black;
+}
