@@ -72,3 +72,17 @@
     padding: 10px 0;
     font-size: 20px;
 }
+
+
+/* right part styling*/
+.right_part{
+    background-image: url(../images/apple-card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	margin: 1% 1% 0 0.5%;
+    height: 570px;
+    width: 48.5%;
+    padding-top: 54px;
+}
