@@ -1,3 +1,60 @@
+/* second styling */
+.section-wrapper {
+    background-color: #fafafa;
+    text-align: center;
+    padding: 23px 0;
+ }
+ .model {
+    font-size: 19px;
+ }
+ .product-title {
+    font-weight: 600;
+    font-size: 55px;
+ }
+ .description {
+    font-size: 32px;
+ }
+ .links {
+    padding: 15px 0;
+ }
+.links ul li {
+    display: inline-block;
+}
+.links ul li a {
+    color: #06c;
+    text-decoration: none;
+}
+.links ul li a:hover {
+    color: #0000;
+}
+.links ul li a:after{
+    font-family: "FontAwesome";
+    font-weight: 880;
+    content: "\f105";
+    padding-left: 10px;
+}
+.second-wrapper {
+    background-image: url('../images/home/iphone11-pro-bg.jpg');
+    color: #fff;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 20px;
+  }
+  .description-wrapper {
+      font-size: 22px;
+      padding: 10px 0;
+  }
+  .title-wrapper {
+      font-weight: 500;
+      font-size: 43px;
+  }
+  .price-wrapper {
+      color: #86868d
+  }
+
 /*third highligh styling*/
 .third_highlight{
     background-image: url(../images/iphone11-bg.jpg);
@@ -45,6 +102,7 @@
     padding-left: 10px;
 }
 
+/* <<<<<<< fourthSection_rightPart */
 
 /*fourt highligh styling*/
     /* left part styling*/
@@ -85,4 +143,85 @@
     height: 570px;
     width: 48.5%;
     padding-top: 54px;
+=======
+.second-row .first-element{
+    background-image: url('../images/home/apple-tv-background.jpg');
+}
+.second-row .second-element{
+    background-image: url('../images/home/air-pods.jpg');
+    color: #fff; 
+	background-size: initial;
+	background-color: #000;
+	background-position: bottom;
+}
+.second-row{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.logo2{
+    padding: 180px 0 200px;
+}
+.trailer a{
+    text-decoration: none;
+}
+.second-element{
+    height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+}
+.first-element{
+    height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+	width: 48.5%;
+	margin: 1% 1% 0% 0.5%; 
+	padding-top: 54px;
+}
+
+.third-row{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.third-row .first-element{
+    background-image: url('../images/home/macbook-pro.jpg');
+    background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom;
+}
+.trailer a::after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 10px;
+}
+
+.description .p2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.description a{
+    text-decoration: none;
+    margin-right: 25px;
+    color:#06c ;
+   
+}
+.description a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+.description a:hover{
+    color: black;
+/* >>>>>>> main */
 }
