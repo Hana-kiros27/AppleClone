@@ -102,6 +102,48 @@
     padding-left: 10px;
 }
 
+/* <<<<<<< fourthSection_rightPart */
+
+/*fourt highligh styling*/
+    /* left part styling*/
+
+.fourth_highlight{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+
+.left_part{
+    background-image: url(../images/watch-series-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	margin: 1% 0.5% 0% 1%;
+    height: 570px;
+    width: 48.5%;
+    padding-top: 54px;
+}
+
+.more-description{
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+
+/* right part styling*/
+.right_part{
+    background-image: url(../images/apple-card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	text-align: center;
+	margin: 1% 1% 0 0.5%;
+    height: 570px;
+    width: 48.5%;
+    padding-top: 54px;
+=======
 .second-row .first-element{
     background-image: url('../images/home/apple-tv-background.jpg');
 }
@@ -181,4 +223,5 @@
 }
 .description a:hover{
     color: black;
+/* >>>>>>> main */
 }
